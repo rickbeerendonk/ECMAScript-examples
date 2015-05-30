@@ -1,0 +1,1 @@
+babel src -w --out-dir lib
