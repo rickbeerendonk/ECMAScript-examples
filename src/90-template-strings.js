@@ -1,8 +1,11 @@
 "use strict";
 
 var name = "EcmaScript";
-var version = "2015";
+var version = 2015;
 
-var result = `This is about:\n${name} ${version}`;
+var x = () => "hi!";
+
+var result = `This is about:
+${name} ${version + 1} ${x()}`;
 
 console.log(result);
