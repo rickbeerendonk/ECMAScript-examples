@@ -20,6 +20,10 @@ To compile:
 * Demos used during the ["JavaScript innovaties: ECMAScript 6 & 7"](http://www.slideshare.net/RickBeerendonk/javascript-innovaties-ecmascript-6-7) presentation. Microsoft TechDays, May 28, 2015. 
 * Demos used during different courses in Denmark, Norway & The Netherlands during 2015 & 2016.
 
+## ECMAScript Proposals
+
+Learn more about [current ECMAScript proposals and their stages](https://github.com/tc39/ecma262).
+
 ## Copyright and License
 The MIT License (MIT)
 
