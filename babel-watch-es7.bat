@@ -1,1 +1,0 @@
-babel src -w --out-dir lib --stage 0
