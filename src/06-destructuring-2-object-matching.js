@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
 var obj = {
-	name: "EcmaScript",
+	name: 'EcmaScript',
 	year: 2015,
 	version: 6
 };

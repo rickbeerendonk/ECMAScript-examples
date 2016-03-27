@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 class Base {
 	constructor(name) {
@@ -18,11 +18,11 @@ class Account extends Base {
 		this.balance -= amount;
 	}
 	toString() {
-		return super.toString() + ": " + this.balance;
+		return super.toString() + ': ' + this.balance;
 	}
 };
 
-var acc = new Account("Rick");
+var acc = new Account('Rick');
 acc.deposit(100);
 acc.withdraw(25);
 

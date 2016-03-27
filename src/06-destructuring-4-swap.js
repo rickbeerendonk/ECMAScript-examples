@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-let a = "One";
-let b = "Two";
+let a = 'One';
+let b = 'Two';
 
 [a, b] = [b, a];
 

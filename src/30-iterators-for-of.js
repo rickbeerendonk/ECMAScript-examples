@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 /*
 interface IteratorResult {
@@ -14,7 +14,7 @@ interface Iterable {
 */
 
 // Babel:
-require("babel/polyfill");
+require('babel/polyfill');
 
 let test = {
 	[Symbol.iterator]() {

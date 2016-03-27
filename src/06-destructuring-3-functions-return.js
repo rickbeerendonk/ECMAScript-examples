@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
 function test() {
-	return ["One", "Two"];
+	return ['One', 'Two'];
 }
 
 let [a, b] = test();

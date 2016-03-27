@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // Nested: Object in array
 function test([value, {name, version}, year]) {
@@ -9,7 +9,7 @@ function test([value, {name, version}, year]) {
 }
 
 var obj = {
-	name: "EcmaScript",
+	name: 'EcmaScript',
 	year: 2015,
 	version: 6
 };

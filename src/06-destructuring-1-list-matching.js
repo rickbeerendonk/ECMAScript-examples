@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 let data = [1, 22, 333, 4444, 55555];
 let [a, , b, ...rest] = data;

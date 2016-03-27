@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var x = (a, b, ...rest) => [a, b, rest];
 console.log(x(1, 2, 3, 4));  // [ 1, 2, [3, 4] ]

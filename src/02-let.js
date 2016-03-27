@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // Babel: Undefined
 // Chrome: Undefined (not-strict) & SyntaxError (strict)

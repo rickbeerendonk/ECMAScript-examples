@@ -1,7 +1,7 @@
-"use strict";
+'use strict';
 
-let one = "ë";
-let two = "e\u0308";
+let one = 'ë';
+let two = 'e\u0308';
 console.log(one.length);          // 1
 console.log(one.codePointAt(0));  // 235
 console.log(two.length);          // 2

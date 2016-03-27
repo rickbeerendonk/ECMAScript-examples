@@ -1,6 +1,6 @@
-"use strict";
+'use strict';
 
-var a = () => "EcmaScript";
+var a = () => 'EcmaScript';
 
 var b = (x) => x * x;
 var c = x => x * x;  // Omit ()

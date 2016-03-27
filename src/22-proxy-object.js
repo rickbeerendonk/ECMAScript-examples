@@ -1,11 +1,11 @@
-"use strict";
+'use strict';
 
 // Babel: Impossible due to ES5 limitations
 
 var target = {};
 var handler = {
 	get: function (receiver, name) {
-		return "Proxy: " + name;
+		return 'Proxy: ' + name;
 	}
 }
 

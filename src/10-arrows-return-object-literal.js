@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 // Need ()
 var a = x => ({value: x});

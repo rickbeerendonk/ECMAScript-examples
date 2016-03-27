@@ -1,5 +1,5 @@
 export default function() {
-	return "Hello world!";
+	return 'Hello world!';
 }
 
 export function square(x) {
