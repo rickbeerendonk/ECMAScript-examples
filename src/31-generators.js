@@ -1,7 +1,7 @@
 'use strict';
 
 // Babel:
-require('babel/polyfill');
+import 'babel-polyfill';
 
 let test = {
 	[Symbol.iterator]: function*() {

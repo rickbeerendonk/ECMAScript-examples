@@ -1,7 +1,7 @@
 'use strict';
 
 // Babel
-require('babel/polyfill');
+import 'babel-polyfill';
 
 function MyClass(firstName, lastName) {
 	this.name = firstName + ' ' + lastName;

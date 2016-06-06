@@ -14,7 +14,7 @@ interface Iterable {
 */
 
 // Babel:
-require('babel/polyfill');
+import 'babel-polyfill';
 
 let test = {
 	[Symbol.iterator]() {
