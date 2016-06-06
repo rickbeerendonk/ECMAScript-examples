@@ -4,6 +4,9 @@ class Base {
 	constructor(name) {
 		this.name = name;
 	}
+	toString() {
+		return this.name;
+	}
 }
 
 class Account extends Base {

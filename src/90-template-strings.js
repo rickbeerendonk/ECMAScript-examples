@@ -9,3 +9,5 @@ var result = `This is about:
 ${name} ${version + 1} ${x()}`;
 
 console.log(result);
+// This is about:
+// EcmaScript 2016 hi!

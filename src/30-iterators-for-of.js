@@ -33,4 +33,4 @@ for (var n of test) {
 		break;
 	}
 	console.log(n);
-}
+} // 1, 2, 3, ... , 10
