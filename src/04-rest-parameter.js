@@ -4,7 +4,7 @@ function test(...a) {
 	console.log('Rest:');
 	console.log(a);
 	console.log(a.length);
-	console.log(Array.isArray(a));   // [1, "TechDays", 2015]
+	console.log(Array.isArray(a));   // [1, "EcmaScript", 2017]
 	
 	// ES6 FireFox: SyntaxError: 'arguments' object may not be used in conjunction with a rest parameter
 	// ES6 Chrome, Edge & Babel: <ok>
@@ -14,4 +14,4 @@ function test(...a) {
 	console.log(Array.isArray(arguments));
 }
 
-test(1, 'TechDays', 2015);
+test(1, 'EcmaScript', 2017);

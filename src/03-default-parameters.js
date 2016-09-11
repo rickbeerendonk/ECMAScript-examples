@@ -20,5 +20,5 @@ test(1, 2);
 console.log('test(1, undefined, "other")');
 test(1, undefined, 'other');
 
-console.log('test(undefined, undefined, undefined, () => "Hello TechDays!")');
-test(undefined, undefined, undefined, () => 'Hello TechDays!');
+console.log('test(undefined, undefined, undefined, () => "Hello EcmaScript!")');
+test(undefined, undefined, undefined, () => 'Hello EcmaScript!');
