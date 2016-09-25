@@ -1,6 +1,6 @@
 'use strict';
 
-var obj = {
+let obj = {
 	name: 'EcmaScript',
 	year: 2015,
 	version: 6
