@@ -1,17 +1,17 @@
 {
-  "name": "ecmascript-2015-2016-demos",
+  "name": "ecmascript-2015-2017-demos",
   "version": "1.1.0",
-  "description": "EcmaScript 2015 & 2016 Demos",
+  "description": "EcmaScript 2015, 2016 & 2017 Demos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rickbeerendonk/ECMAScript-2015-2016-Demos.git"
+    "url": "git+https://github.com/rickbeerendonk/ECMAScript-2015-2017-Demos.git"
   },
   "author": "Rick Beerendonk",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rickbeerendonk/ECMAScript-2015-2016-Demos/issues"
+    "url": "https://github.com/rickbeerendonk/ECMAScript-2015-2017-Demos/issues"
   },
-  "homepage": "https://github.com/rickbeerendonk/ECMAScript-2015-2016-Demos#readme",
+  "homepage": "https://github.com/rickbeerendonk/ECMAScript-2015-2017-Demos#readme",
   "devDependencies": {
     "babel-cli": "^6.14.0",
     "babel-polyfill": "^6.13.0",
