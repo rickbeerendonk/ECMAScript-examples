@@ -18,7 +18,7 @@ To compile:
 ## Conferences
 
 * Demos used during the ["JavaScript 2016 for C# Developers"](http://www.slideshare.net/RickBeerendonk/javascript-2016-for-c-developers) presentation. Microsoft TechDays, October 4, 2016.
-* Demos used during different courses in Denmark, Norway & The Netherlands during 2015 & 2016.
+* Demos used during different courses in Denmark, Norway & The Netherlands during 2015, 2016 & 2017.
 * Demos used during the ["JavaScript innovaties: ECMAScript 6 & 7"](http://www.slideshare.net/RickBeerendonk/javascript-innovaties-ecmascript-6-7) presentation. Microsoft TechDays, May 28, 2015. 
 
 ## ECMAScript Proposals
@@ -28,7 +28,7 @@ Learn more about [current ECMAScript proposals and their stages](https://github.
 ## Copyright and License
 The MIT License (MIT)
 
-Copyright © 2015-2016 Rick Beerendonk.
+Copyright © 2015-2017 Rick Beerendonk.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
