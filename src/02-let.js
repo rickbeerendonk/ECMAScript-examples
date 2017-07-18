@@ -1,19 +1,22 @@
 'use strict';
 
 // Babel: Undefined
-// Chrome: Undefined (not-strict) & SyntaxError (strict)
-// FireFox: Undefined
-// Edge: Error
+// Chrome: ReferenceError: a is not defined
+// FireFox: ReferenceError: can't access lexical declaration `a' before initialization
+// Safari: ReferenceError: Cannot access uninitialized variable.
+// Edge: ?
 //console.log(a);
 
-// Chrome: Requires strict mode
-// FireFox: Requires flag
-// Edge: 
 let a = 1;
 
 if (true) {
-
-	//console.log(a);  // ?
+	
+	// Babel: -
+	// Chrome: ReferenceError: a is not defined
+	// FireFox: ReferenceError: can't access lexical declaration `a' before initialization
+	// Safari: ReferenceError: Cannot access uninitialized variable.
+	// Edge: ?
+	console.log(a);
 
 	let a = 2;
 

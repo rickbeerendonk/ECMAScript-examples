@@ -1,9 +1,10 @@
 'use strict';
 
 // Babel: Undefined
-// Chrome: Undefined (not-strict) & SyntaxError (strict)
-// FireFox: Undefined
-// Edge: Error
+// Chrome: ReferenceError: a is not defined
+// FireFox: ReferenceError: can't access lexical declaration `a' before initialization
+// Safari: ReferenceError: Cannot access uninitialized variable.
+// Edge: ?
 //console.log(a);
 
 const a = 1;
@@ -11,10 +12,11 @@ const a = 1;
 if (true) {
 	const b = 2;
 
-	// Babel: SyntaxError (compiler)
-	// FF: SyntaxError
-	// Chrome: <ignores statement> (non-strict) & TypeError(strict)
-	// Edge: Error
+	// Babel: SyntaxError: "b" is read-only (compiler)
+	// Chrome: TypeError: Assignment to constant variable
+	// FireFox: TypeError: invalid assignment to const 'b'
+	// Safari: TypeError: Attempted to assign to readonly property.
+	// Edge: ?
 	//b = 3;
 
 	console.log(a);  // 1
@@ -22,7 +24,8 @@ if (true) {
 }
 
 // Babel: ReferenceError
-// Chrome: Undefined (not-strict) & SyntaxError (strict)
-// FireFox: ReferenceError
-// Edge: Error
+// Chrome: ReferenceError: b is not defined
+// FireFox: ReferenceError: b is not defined
+// Safari: ReferenceError: Can't find variable: b
+// Edge: ?
 console.log(b);
