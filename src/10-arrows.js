@@ -1,12 +1,15 @@
 'use strict';
 
-var a = () => 'EcmaScript';
+const a = () => 'EcmaScript';
 
-var b = (x) => x * x;
-var c = x => x * x;  // Omit ()
-var d = x => { var y = x * x; return y; }; // Add { ...; return ...; }
+const b = (x) => x * x;
+const c = x => x * x;  // Omit ()
+const d = x => {
+    const y = x * x;
+    return y;
+}; // Add { ...; return ...; }
 
-var e = (x, y) => x * y;
+const e = (x, y) => x * y;
 
 console.log(a());     // EcmaScript
 console.log(b(2));    // 4

@@ -12,7 +12,7 @@ let test = {
 	}
 }
 
-for (var n of test) {
+for (let n of test) {
 	if (n > 10) {
 		break;
 	}

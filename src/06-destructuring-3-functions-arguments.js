@@ -8,12 +8,12 @@ function test([value, {name, version}, year]) {
 	console.log(year);    // 2017
 }
 
-var obj = {
+const obj = {
 	name: 'EcmaScript',
 	year: 2015,
 	version: 6
 };
 
-var data = [1, obj, 2017];
+const data = [1, obj, 2017];
 
 test(data);

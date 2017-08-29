@@ -10,7 +10,7 @@ class Stack extends Array {
 	}
 }
 
-var s = new Stack();
+let s = new Stack();
 s.push('World');
 s.push('Hello');
 console.log(s.top());  // Hello

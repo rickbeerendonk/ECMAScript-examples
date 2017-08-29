@@ -4,14 +4,14 @@
 import 'babel-polyfill';
 
 function logIterator(iterator) {
-	var s = '';
-	for (var v of iterator) {
+	let s = '';
+	for (let v of iterator) {
 		s += v + '; ';
 	}
 	console.log(s);
 }
 
-var s = new Set(['A', 'B']);
+let s = new Set(['A', 'B']);
 s.add('C');
 s.add('D');
 

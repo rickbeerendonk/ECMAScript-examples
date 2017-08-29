@@ -3,9 +3,9 @@
 // Babel:
 import 'babel-polyfill';
 
-var s1 = Symbol(1);
-var s2 = Symbol('rick/two');
-var s3 = Symbol('rick/three');
+const s1 = Symbol(1);
+const s2 = Symbol('rick/two');
+const s3 = Symbol('rick/three');
 
 let obj = {};
 

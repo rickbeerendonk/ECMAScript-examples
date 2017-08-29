@@ -4,14 +4,14 @@
 import 'babel-polyfill';
 
 function logIterator(iterator) {
-	var s = '';
-	for (var v of iterator) {
+	let s = '';
+	for (let v of iterator) {
 		s += v + '; ';
 	}
 	console.log(s);
 }
 
-var map = new Map([['A', 111], ['B', 222]]);
+let map = new Map([['A', 111], ['B', 222]]);
 map.set('C', 333);
 
 logIterator(map.keys());     // A; B; C

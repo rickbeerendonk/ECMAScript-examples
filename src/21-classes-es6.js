@@ -25,7 +25,7 @@ class Account extends Base {
 	}
 };
 
-var acc = new Account('Rick');
+let acc = new Account('Rick');
 acc.deposit(100);
 acc.withdraw(25);
 

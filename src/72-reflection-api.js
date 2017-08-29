@@ -7,7 +7,7 @@ function MyClass(firstName, lastName) {
 	this.name = firstName + ' ' + lastName;
 }
 
-var instance = Reflect.construct(MyClass, ['Steve', 'Ballmer']);
+let instance = Reflect.construct(MyClass, ['Steve', 'Ballmer']);
 
 console.log(Reflect.has(instance, 'firstName'));  // false;
 console.log(Reflect.has(instance, 'lastName'));  // false;
