@@ -12,9 +12,11 @@ async function* asyncTest() {
 
 (async function () {
 	for await (let n of asyncTest()) {
-		if (n > 10) {
+		console.log(n);
+		if (n >= 10) {
 			break;
 		}
-		console.log(n);
 	}
+
+	console.log('done');
 })();

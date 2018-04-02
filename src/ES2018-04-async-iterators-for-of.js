@@ -9,7 +9,9 @@ const test = {
 		return {
 			next() {
 				current++;
-				return Promise.resolve({ done: false, value: current });
+				return new Promise(function(resolve, reject) {
+					setTimeout(() => resolve({ done: false, value: current }), 1000 * Math.random());
+				});
 			}
 		}
 	}
@@ -17,9 +19,11 @@ const test = {
 
 (async function () {
 	for await (let n of test) {
-		if (n > 10) {
+		console.log(n);
+		if (n >= 10) {
 			break;
 		}
-		console.log(n);
 	} // 1, 2, 3, ... , 10
+
+	console.log('done');
 })();
