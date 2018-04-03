@@ -1,7 +1,7 @@
 'use strict';
 
 // Babel:
-import 'babel-polyfill';
+//import 'babel-polyfill';
 
 let o1 = { a: 1 };
 let o2 = { b: 2, c: 3 };

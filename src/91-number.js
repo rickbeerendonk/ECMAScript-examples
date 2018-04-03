@@ -1,7 +1,7 @@
 'use strict';
 
 // Babel:
-import 'babel-polyfill';
+//import 'babel-polyfill';
 
 const n = 5.12;
 

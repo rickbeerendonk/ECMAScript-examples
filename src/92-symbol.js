@@ -1,7 +1,7 @@
 'use strict';
 
 // Babel:
-import 'babel-polyfill';
+//import 'babel-polyfill';
 
 const s1 = Symbol(1);
 const s2 = Symbol('rick/two');

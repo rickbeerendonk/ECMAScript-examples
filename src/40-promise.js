@@ -1,7 +1,7 @@
 'use strict';
 
 // Babel:
-import 'babel-polyfill';
+//import 'babel-polyfill';
 
 let p1 = new Promise(function(resolve, reject) {
 	 	setTimeout(() => resolve('Resolved' ), 2000);
