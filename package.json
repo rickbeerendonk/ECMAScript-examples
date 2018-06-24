@@ -1,7 +1,7 @@
 {
-  "name": "ecmascript-2015-2017-demos",
-  "version": "1.2.0",
-  "description": "EcmaScript 2015, 2016 & 2017 Demos",
+  "name": "ecmascript-examples",
+  "version": "1.3.0",
+  "description": "EcmaScript 2015, 2016, 2017, 2018 & 2019 Demos",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos.git"
@@ -13,10 +13,11 @@
   },
   "homepage": "https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1",
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/polyfill": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-stage-3": "^7.0.0-beta.51",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16"
   },
   "scripts": {
