@@ -16,7 +16,8 @@
     "babel-cli": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-3": "^6.24.1"
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16"
   },
   "scripts": {
     "build": "babel src --out-dir lib",
