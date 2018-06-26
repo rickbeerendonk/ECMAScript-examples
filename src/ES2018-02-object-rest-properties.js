@@ -1,11 +1,12 @@
 'use strict';
 
-const name = 'EcmaScript';
 const obj = {
+	name: 'EcmaScript',
 	year: 2018,
 	final: true
 };
 
-let composed = { name, ...obj };
+let { name, ...other } = obj;
 
-console.log(composed);  // { name: "EcmaScript", year: 2018, final: true }
+console.log(name);   // EcmaScript
+console.log(other);  // { year: 2018, final: true }
