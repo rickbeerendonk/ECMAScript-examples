@@ -7,7 +7,8 @@
 
 try {
     throw 'Something went wrong';
-} catch (err) {
+} 
+catch (err) {
     console.log('There was an error (traditional catch)');
 }
 
@@ -15,6 +16,7 @@ try {
 
 try {
     throw 'Something went wrong';
-} catch {
+} 
+catch {
     console.log('There was an error (2019 catch)');
 }

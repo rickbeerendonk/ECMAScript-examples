@@ -1,5 +1,5 @@
 {
-  "presets": ["@babel/preset-env", "@babel/preset-stage-3"],
+  "presets": ["@babel/preset-env", "@babel/preset-stage-1"],
   "plugins": [
     "transform-optional-catch-binding"
   ]
