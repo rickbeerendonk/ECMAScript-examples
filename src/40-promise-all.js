@@ -15,6 +15,6 @@ let p3 = new Promise(function(resolve, reject) {
 
 Promise
 	.all([p1, p2 /*, p3 */])
-	.then(x => console.log('Success: ' + x)).catch(e => console.log('Fail: ' + e));
+	.then(x => console.log('Success: ' + JSON.stringify(x))).catch(e => console.log('Fail: ' + e));
 	
 console.log('End of file...');
