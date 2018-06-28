@@ -1,9 +1,11 @@
 'use strict';
 
+var someArray = [];
+
 // No default
-let [a] = [];
-console.log(a);  // undefined
+let [firstValue] = someArray;
+console.log(firstValue);  // undefined
 
 // Default
-let [b = 1] = [];
-console.log(b);  // 1
+let [firstValueOrDefault = 1] = someArray;
+console.log(firstValueOrDefault);  // 1
