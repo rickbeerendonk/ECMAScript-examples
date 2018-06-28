@@ -15,6 +15,7 @@ let p3 = new Promise(function(resolve, reject) {
 
 Promise
 	.race([p1, p2, p3])
-	.then(x => console.log('Success: ' + JSON.stringify(x))).catch(e => console.log('Fail: ' + e));
+	.then(text => console.log('Success: ' + JSON.stringify(text)))
+	.catch(err => console.log('Fail: ' + err));
 	
 console.log('End of file...');
