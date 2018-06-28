@@ -13,9 +13,14 @@ let p3 = new Promise(function(resolve, reject) {
 		setTimeout(() => reject('Rejected 3'), 1500); 
 	});
 
-Promise
-	.all([p1, p2 /*, p3 */])
-	.then(arr => console.log('Success: ' + JSON.stringify(arr)))
-	.catch(err => console.log('Fail: ' + err));
-	
+(async function() {
+	try {
+		const arr = await Promise.all([p1, p2, p3]);
+		console.log('Success: ' + JSON.stringify(arr));
+	}
+	catch (err) {
+		console.log('Fail: ' + err);
+	}
+})();
+
 console.log('End of file...');
