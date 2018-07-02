@@ -4,9 +4,14 @@
 //import 'babel-polyfill';
 
 async function* asyncTest() {
-	let current = 1;
-	while (true) {
-		setTimeout(() => { yield current++; }, 1000 * Math.random());
+	try {
+		let current = 1;
+		while (true) {
+			yield current++;
+		}
+	}
+	finally {
+		console.log('User breaks out of the loop.');
 	}
 }
 
