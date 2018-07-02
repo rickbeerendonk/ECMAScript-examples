@@ -27,3 +27,5 @@ const test = {
 
 	console.log('done');
 })();
+
+console.log("End of file...");
