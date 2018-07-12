@@ -17,7 +17,7 @@
     "@babel/core": "^7.0.0-beta.53",
     "@babel/polyfill": "^7.0.0-beta.53",
     "@babel/preset-env": "^7.0.0-beta.53",
-    "@babel/preset-stage-1": "^7.0.0-beta.53",
+    "@babel/preset-stage-3": "^7.0.0-beta.53",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16"
   },
   "scripts": {
