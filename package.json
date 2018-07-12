@@ -13,11 +13,11 @@
   },
   "homepage": "https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0-beta.51",
-    "@babel/core": "^7.0.0-beta.51",
-    "@babel/polyfill": "^7.0.0-beta.51",
-    "@babel/preset-env": "^7.0.0-beta.51",
-    "@babel/preset-stage-1": "^7.0.0-beta.51",
+    "@babel/cli": "^7.0.0-beta.53",
+    "@babel/core": "^7.0.0-beta.53",
+    "@babel/polyfill": "^7.0.0-beta.53",
+    "@babel/preset-env": "^7.0.0-beta.53",
+    "@babel/preset-stage-1": "^7.0.0-beta.53",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16"
   },
   "scripts": {
