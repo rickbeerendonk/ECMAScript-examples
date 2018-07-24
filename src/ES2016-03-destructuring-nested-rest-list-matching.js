@@ -2,12 +2,7 @@
 
 let data = [1, 22, 333, 4444];
 
-// Works in Chrome, but not in Babel :(
-// let [a, ...[b, ...rest]] = data;
-
-// Temporary (to make Babel happy)
-let [a, ...temp] = data;
-let [b, ...rest] = temp;
+let [a, ...[b, ...rest]] = data;
 
 console.log(a);    // 1
 console.log(b);    // 22
