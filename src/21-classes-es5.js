@@ -17,6 +17,8 @@ var Account = function(name) {
 	return this;
 };
 
+Account.prototype = new Base();
+
 Account.prototype.deposit = function(amount) {
 	this.balance += amount;
 };
