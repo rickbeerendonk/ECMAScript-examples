@@ -16,8 +16,8 @@
     "@babel/cli": "^7.0.0-rc.1",
     "@babel/core": "^7.0.0-rc.1",
     "@babel/polyfill": "^7.0.0-rc.1",
+    "@babel/plugin-proposal-class-properties": "^7.0.0-rc.1",
     "@babel/preset-env": "^7.0.0-rc.1",
-    "@babel/preset-stage-3": "^7.0.0-rc.1",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16"
   },
   "scripts": {
