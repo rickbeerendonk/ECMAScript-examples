@@ -21,7 +21,7 @@ var p2 = new Promise(function (resolve, reject) {
 
 	try {
 		const p2result = await p2;
-		console.log('p1: ' + e);
+		console.log('p2: ' + p2result);
 	} catch (e) {
 		console.log('p2 error: ' + e);
 	}
