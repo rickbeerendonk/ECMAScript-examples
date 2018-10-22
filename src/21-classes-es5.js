@@ -6,6 +6,7 @@ var Base = function(name) {
 };
 
 Base.prototype = {
+	constructor: Base,
 	toString: function() {
 		return this.name;
 	}
