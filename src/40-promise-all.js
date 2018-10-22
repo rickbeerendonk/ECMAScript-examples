@@ -9,9 +9,11 @@ let p1 = new Promise(function(resolve, reject) {
 let p2 = new Promise(function(resolve, reject) { 
 		setTimeout(() => resolve('Resolved 2'), 1000); 
 	});
+/*
 let p3 = new Promise(function(resolve, reject) { 
 		setTimeout(() => reject('Rejected 3'), 1500); 
 	});
+*/
 
 Promise
 	.all([p1, p2 /*, p3 */])
