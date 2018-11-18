@@ -3,8 +3,9 @@
     "@babel/preset-env"
   ],
   "plugins": [
-    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
     ["@babel/plugin-proposal-class-properties", { "loose": false }],
+    ["@babel/plugin-proposal-numeric-separator"],
+    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
     "transform-optional-catch-binding"
   ]
 }
