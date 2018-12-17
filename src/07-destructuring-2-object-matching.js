@@ -7,8 +7,9 @@ let obj = {
 	website: 'https://github.com/tc39'
 };
 
-let { committee, name: officialName, edition: { year } } = obj;
+let { committee, name: officialName, edition: { year }, other = 'new' } = obj;
 
 console.log(committee); // 'TC39'
 console.log(officialName); // 'EcmaScript'
 console.log(year); // 2015
+console.log(other); // 'new'
