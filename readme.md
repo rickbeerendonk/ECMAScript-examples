@@ -28,7 +28,7 @@ Learn more about [current ECMAScript proposals and their stages](https://github.
 ## Copyright and License
 The MIT License (MIT)
 
-Copyright © 2015-2018 Rick Beerendonk.
+Copyright © 2015-2019 Rick Beerendonk.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
