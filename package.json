@@ -21,7 +21,7 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.2.3",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.3"
   },
   "scripts": {
     "build": "npm run clean && babel src --out-dir lib",
