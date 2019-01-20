@@ -1,3 +1,6 @@
+/*! European Union Public License version 1.2 !*/
+/*! Copyright © 2015 Rick Beerendonk          !*/
+
 'use strict';
 
 let x = '\u{1F437}'; // console.log('\u{1F4A9}')

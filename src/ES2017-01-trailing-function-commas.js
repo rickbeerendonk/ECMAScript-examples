@@ -1,3 +1,6 @@
+/*! European Union Public License version 1.2 !*/
+/*! Copyright © 2017 Rick Beerendonk          !*/
+
 'use strict';
 
 // Case 1: No error because of the trailing comma in parameters

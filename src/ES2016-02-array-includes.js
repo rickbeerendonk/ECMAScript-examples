@@ -1,3 +1,6 @@
+/*! European Union Public License version 1.2 !*/
+/*! Copyright © 2016 Rick Beerendonk          !*/
+
 'use strict';
 
 console.log( ['a', 'b'].includes('a') ); // true
