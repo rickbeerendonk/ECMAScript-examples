@@ -1,6 +1,8 @@
 /*! European Union Public License version 1.2 !*/
 /*! Copyright © 2017 Rick Beerendonk          !*/
 
+/* eslint no-unused-vars:warn */
+
 'use strict';
 
 // Babel:

@@ -1,6 +1,8 @@
 /*! European Union Public License version 1.2 !*/
 /*! Copyright © 2015 Rick Beerendonk          !*/
 
+/* eslint no-undef:warn, no-unused-vars:warn */
+
 'use strict';
 
 const x = (a, b, ...rest) => [a, b, rest];

@@ -1,6 +1,8 @@
 /*! European Union Public License version 1.2 !*/
 /*! Copyright © 2015 Rick Beerendonk          !*/
 
+/* eslint no-constant-condition:off, no-undef:off */
+
 'use strict';
 
 // Babel: Undefined
