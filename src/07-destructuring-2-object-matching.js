@@ -4,13 +4,18 @@
 'use strict';
 
 let obj = {
-	committee: 'TC39',
-	name: 'EcmaScript',
-	edition: { version: 6, year: 2015 },
-	website: 'https://github.com/tc39'
+  committee: 'TC39',
+  name: 'EcmaScript',
+  edition: { version: 6, year: 2015 },
+  website: 'https://github.com/tc39'
 };
 
-let { committee, name: officialName, edition: { year }, other = 'new' } = obj;
+let {
+  committee,
+  name: officialName,
+  edition: { year },
+  other = 'new'
+} = obj;
 
 console.log(committee); // 'TC39'
 console.log(officialName); // 'EcmaScript'

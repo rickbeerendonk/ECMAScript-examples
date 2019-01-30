@@ -7,28 +7,28 @@
 
 //require('babel-polyfill');
 
-var p1 = new Promise(function (resolve, reject) {
-	setTimeout(function () {
-		return resolve('Resolved');
-	}, 2000);
+var p1 = new Promise(function(resolve, reject) {
+  setTimeout(function() {
+    return resolve('Resolved');
+  }, 2000);
 });
-var p2 = new Promise(function (resolve, reject) {
-	setTimeout(function () {
-		return reject('Rejected');
-	}, 1000);
+var p2 = new Promise(function(resolve, reject) {
+  setTimeout(function() {
+    return reject('Rejected');
+  }, 1000);
 });
 
 async function handle() {
-	try {
-		const p1result = await p1;
-		console.log('p1: ' + p1result);
+  try {
+    const p1result = await p1;
+    console.log('p1: ' + p1result);
 
-		const p2result = await p2;
-		console.log('p2: ' + p2result);
-	} catch (err) {
-		console.log('error: ' + err);
-	}
-};
+    const p2result = await p2;
+    console.log('p2: ' + p2result);
+  } catch (err) {
+    console.log('error: ' + err);
+  }
+}
 
 // An async function returns a promise:
 let p = handle();

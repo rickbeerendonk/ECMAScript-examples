@@ -20,20 +20,20 @@ interface Iterable {
 //import 'babel-polyfill';
 
 let test = {
-	[Symbol.iterator]() {
-		let current = 0;
-		return {
-			next() {
-				current++;
-				return { done: false, value: current }
-			}
-		}
-	}
-}
+  [Symbol.iterator]() {
+    let current = 0;
+    return {
+      next() {
+        current++;
+        return { done: false, value: current };
+      }
+    };
+  }
+};
 
 for (let n of test) {
-	if (n > 10) {
-		break;
-	}
-	console.log(n);
+  if (n > 10) {
+    break;
+  }
+  console.log(n);
 } // 1, 2, 3, ... , 10

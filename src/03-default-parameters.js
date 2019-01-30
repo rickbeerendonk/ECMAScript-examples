@@ -4,11 +4,11 @@
 'use strict';
 
 function test(a, b = 10, c = 'default', d = () => 'Hello world!') {
-	console.log(a);
-	console.log(b);
-	console.log(c);
-	console.log(d());
-	console.log('');
+  console.log(a);
+  console.log(b);
+  console.log(c);
+  console.log(d());
+  console.log('');
 }
 
 console.log('test()');

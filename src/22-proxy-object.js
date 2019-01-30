@@ -7,11 +7,11 @@
 
 let target = {};
 let handler = {
-	get: function (receiver, name) {
-		return 'Proxy: ' + name;
-	}
-}
+  get: function(receiver, name) {
+    return 'Proxy: ' + name;
+  }
+};
 
 let proxy = new Proxy(target, handler);
 
-console.log(proxy.TechDays);  // Proxy: TechDays
+console.log(proxy.TechDays); // Proxy: TechDays

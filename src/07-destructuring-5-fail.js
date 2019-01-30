@@ -7,8 +7,8 @@ var someArray = [];
 
 // No default
 let [firstValue] = someArray;
-console.log(firstValue);  // undefined
+console.log(firstValue); // undefined
 
 // Default
 let [firstValueOrDefault = 1] = someArray;
-console.log(firstValueOrDefault);  // 1
+console.log(firstValueOrDefault); // 1

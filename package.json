@@ -21,11 +21,14 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.3.1",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16",
+    "prettier": "^1.16.2",
     "rimraf": "^2.6.3"
   },
   "scripts": {
     "build": "npm run clean && babel src --out-dir lib",
     "build-watch": "npm run clean && babel src -w --out-dir lib",
-    "clean": "rimraf lib"
+    "clean": "rimraf lib",
+    "prettier": "prettier --list-different '**/*.{json,js,html}'",
+    "prettier-fix": "prettier --write '**/*.{json,js,html}'"
   }
 }

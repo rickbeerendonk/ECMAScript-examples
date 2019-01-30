@@ -8,5 +8,5 @@ let b = 'Two';
 
 [a, b] = [b, a];
 
-console.log(a);  // Two
-console.log(b);  // One
+console.log(a); // Two
+console.log(b); // One

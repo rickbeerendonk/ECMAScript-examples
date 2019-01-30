@@ -13,17 +13,17 @@
 const a = 1;
 
 if (true) {
-	const b = 2;
+  const b = 2;
 
-	// Babel: SyntaxError: "b" is read-only (compiler)
-	// Chrome: TypeError: Assignment to constant variable
-	// FireFox: TypeError: invalid assignment to const 'b'
-	// Safari: TypeError: Attempted to assign to readonly property.
-	// Edge: ?
-	//b = 3;
+  // Babel: SyntaxError: "b" is read-only (compiler)
+  // Chrome: TypeError: Assignment to constant variable
+  // FireFox: TypeError: invalid assignment to const 'b'
+  // Safari: TypeError: Attempted to assign to readonly property.
+  // Edge: ?
+  //b = 3;
 
-	console.log(a);  // 1
-	console.log(b);  // 2
+  console.log(a); // 1
+  console.log(b); // 2
 }
 
 // Babel: ReferenceError

@@ -6,17 +6,15 @@
 // Previous:
 
 try {
-    throw 'Something went wrong';
-} 
-catch (err) {
-    console.log('There was an error (traditional catch)');
+  throw 'Something went wrong';
+} catch (err) {
+  console.log('There was an error (traditional catch)');
 }
 
 // 2019 also allows:
 
 try {
-    throw 'Something went wrong';
-} 
-catch {
-    console.log('There was an error (2019 catch)');
+  throw 'Something went wrong';
+} catch {
+  console.log('There was an error (2019 catch)');
 }

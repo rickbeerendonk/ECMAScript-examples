@@ -1,6 +1,6 @@
 {
-	"compilerOptions": {
-		"target": "esnext",
-		"experimentalDecorators": true
-	}
+  "compilerOptions": {
+    "target": "esnext",
+    "experimentalDecorators": true
+  }
 }
