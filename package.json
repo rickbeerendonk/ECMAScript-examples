@@ -12,6 +12,12 @@
     "url": "https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos/issues"
   },
   "homepage": "https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run validate",
+      "pre-push": "npm run validate"
+    }
+  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
@@ -21,6 +27,7 @@
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.3.1",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16",
+    "husky": "^1.3.1",
     "prettier": "^1.16.2",
     "rimraf": "^2.6.3"
   },
@@ -29,6 +36,7 @@
     "build-watch": "npm run clean && babel src -w --out-dir lib",
     "clean": "rimraf lib",
     "prettier": "prettier --list-different '**/*.{json,js,html}'",
-    "prettier-fix": "prettier --write '**/*.{json,js,html}'"
+    "prettier-fix": "prettier --write '**/*.{json,js,html}'",
+    "validate": "npm run prettier"
   }
 }
