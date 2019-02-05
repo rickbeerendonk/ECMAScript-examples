@@ -33,3 +33,4 @@ acc.deposit(100);
 acc.withdraw(25);
 
 console.log(acc); // { name: 'Rick', balance: 75 }
+console.log(acc.toString()); // Rick: 75
