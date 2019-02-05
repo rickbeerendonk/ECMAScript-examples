@@ -15,7 +15,7 @@ let p2 = new Promise(function(resolve, reject) {
   setTimeout(() => resolve('Cache result'), 2000);
 });
 //let p3 = new Promise(function(resolve, reject) {
-//		setTimeout(() => reject('Rejected 3'), 1500);
+//		setTimeout(() => reject('Timeout'), 1500);
 //	});
 
 Promise.race([p1, p2 /*, p3 */])
