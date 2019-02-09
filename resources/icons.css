@@ -1,0 +1,18 @@
+.info::before {
+  border-radius: 0.5rem;
+  width: 1rem;
+  margin-right: 0.5rem;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+  font-family: arial;
+}
+
+.info::before {
+  background-color: mediumblue;
+  color: white;
+  content: 'i';
+}
