@@ -29,6 +29,7 @@
     "babel-eslint": "^10.0.1",
     "babel-plugin-transform-optional-catch-binding": "^7.0.0-alpha.16",
     "eslint": "^5.13.0",
+    "http-server": "0.11.1",
     "husky": "^1.3.1",
     "prettier": "^1.16.4",
     "rimraf": "^2.6.3"
@@ -39,6 +40,7 @@
     "clean": "rimraf lib",
     "eslint": "eslint . --ext .js --cache",
     "eslint-fix": "eslint . --ext .js --cache --fix",
+    "openserver": "node \"./util - http-server/server.js\" 8040",
     "prettier": "prettier --list-different '**/*.{json,js,html}'",
     "prettier-fix": "prettier --write '**/*.{json,js,html}'",
     "validate": "npm run eslint && npm run prettier"

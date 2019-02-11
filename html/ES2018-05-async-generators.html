@@ -6,9 +6,12 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../resources/icons.css" />
     <link rel="stylesheet" href="../resources/oblicum.css" />
+    <link rel="stylesheet" href="../resources/external/prism.css" />
+    <script src="../resources/external/prism.js"></script>
+    <script src="../resources/prism-src.js"></script>
   </head>
-  <body>
+  <body onload="showSource()">
     <div><span class="info">Open the console!</span></div>
-    <script src="../src/ES2018-05-async-generators.js"></script>
+    <script id="source" src="../src/ES2018-05-async-generators.js"></script>
   </body>
 </html>
