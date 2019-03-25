@@ -1,5 +1,9 @@
 # ECMAScript Demos
 
+![](https://img.shields.io/github/license/rickbeerendonk/ECMAScript-examples.svg)
+
+## Use
+
 To run:
 
 1. Install [Node](https://nodejs.org/) + [NPM](https://www.npmjs.com/)
