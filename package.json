@@ -4,14 +4,14 @@
   "description": "EcmaScript 2015, 2016, 2017, 2018 & 2019 Demos",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos.git"
+    "url": "git+https://github.com/rickbeerendonk/ECMAScript-examples.git"
   },
   "author": "Rick Beerendonk",
   "license": "EUPL-1.2",
   "bugs": {
-    "url": "https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos/issues"
+    "url": "https://github.com/rickbeerendonk/ECMAScript-examples/issues"
   },
-  "homepage": "https://github.com/rickbeerendonk/ECMAScript-2015-2018-Demos#readme",
+  "homepage": "https://github.com/rickbeerendonk/ECMAScript-examples#readme",
   "husky": {
     "hooks": {
       "pre-commit": "npm run validate",
