@@ -19,6 +19,10 @@ To compile:
 * Run `babel-watch.bat` (Windows)
 * Run `npm run build` or `npm run watch`
 
+To run:
+* Browser: Open HTML
+* Node: Run `node <filename>` or sometimes `node --harmony <filename>`
+
 ## Conferences
 
 * Demos used during the ["JavaScript 2016 for C# Developers"](http://www.slideshare.net/RickBeerendonk/javascript-2016-for-c-developers) presentation. Microsoft TechDays, October 4, 2016.
