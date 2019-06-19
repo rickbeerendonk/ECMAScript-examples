@@ -1,5 +1,5 @@
 /*! European Union Public License version 1.2 !*/
-/*! Copyright © 2015 Rick Beerendonk          !*/
+/*! Copyright © 2018 Rick Beerendonk          !*/
 
 /* eslint no-unused-vars:warn */
 
@@ -19,14 +19,12 @@ const p2 = () =>
 
 p1()
   .then(x => console.log('Success p1: ' + x))
-  .catch(err => console.log('Fail p1: ' + err));
+  .catch(e => console.log('Fail p1: ' + e))
+  .finally(() => console.log('Finally p1'));
 
 p2()
   .then(x => console.log('Success p2: ' + x))
-  .catch(err => console.log('Fail p2: ' + err));
-
-// Alternative syntax:
-//p1.then(x => console.log('Success p1 (alternative): ' + x), err => console.log('Fail p1 (alternative): ' + err));
-//p2.then(x => console.log('Success p2 (alternative): ' + x), err => console.log('Fail p2 (alternative): ' + err));
+  .catch(e => console.log('Fail p2: ' + e))
+  .finally(() => console.log('Finally p2'));
 
 console.log('End of file...');
