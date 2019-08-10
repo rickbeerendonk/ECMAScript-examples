@@ -1,7 +1,7 @@
 /*! European Union Public License version 1.2 !*/
 /*! Copyright © 2018 Rick Beerendonk          !*/
 
-// https://github.com/tc39/proposal-pipeline-operator/
+// https://github.com/tc39/proposal-numeric-separator
 
 'use strict';
 
