@@ -17,14 +17,26 @@ const p2 = () =>
     setTimeout(() => reject('Rejected'), 1000);
   });
 
-p1()
-  .then(x => console.log('Success p1: ' + x))
-  .catch(e => console.log('Fail p1: ' + e))
-  .finally(() => console.log('Finally p1'));
+(async () => {
+  try {
+    const x = await p1();
+    console.log('Success p1: ' + x);
+  } catch (e) {
+    console.log('Fail p1: ' + e);
+  } finally {
+    console.log('Finally p1');
+  }
+})();
 
-p2()
-  .then(x => console.log('Success p2: ' + x))
-  .catch(e => console.log('Fail p2: ' + e))
-  .finally(() => console.log('Finally p2'));
+(async () => {
+  try {
+    const x = await p2();
+    console.log('Success p2: ' + x);
+  } catch (e) {
+    console.log('Fail p2: ' + e);
+  } finally {
+    console.log('Finally p2');
+  }
+})();
 
 console.log('End of file...');
