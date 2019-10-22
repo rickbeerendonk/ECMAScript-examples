@@ -12,8 +12,8 @@ let obj = {
 
 let {
   committee,
-  name: officialName,
   edition: { year },
+  name: officialName,
   other = 'new'
 } = obj;
 
