@@ -29,3 +29,19 @@ console.log('--');
 for (const item of generator2()) {
   console.log(item);
 }
+
+/*
+
+a
+b
+c
+--
+1
+2
+a
+b
+c
+3
+4
+
+*/
