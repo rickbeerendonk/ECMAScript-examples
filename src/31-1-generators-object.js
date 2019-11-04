@@ -6,7 +6,7 @@
 // Babel:
 //import '@babel/polyfill';
 
-let test = {
+const test = {
   [Symbol.iterator]: function*() {
     let current = 1;
     while (true) {
