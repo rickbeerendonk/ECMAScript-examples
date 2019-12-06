@@ -1,7 +1,7 @@
 {
   "name": "ecmascript-examples",
   "version": "1.4.0",
-  "description": "EcmaScript 2015, 2016, 2017, 2018 & 2019 Demos",
+  "description": "EcmaScript 2015, 2016, 2017, 2018, 2019 & 2020 Demos",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rickbeerendonk/ECMAScript-examples.git"
