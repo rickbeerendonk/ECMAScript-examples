@@ -12,3 +12,7 @@ console.log('user.address:', JSON.stringify(user.address));
 
 // Would throw without ?.
 console.log('user.address.street:', JSON.stringify(user.address?.street));
+
+// user: {"address": null}
+// user.address: null
+// user.address.street: undefined
