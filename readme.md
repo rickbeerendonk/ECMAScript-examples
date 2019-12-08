@@ -4,23 +4,20 @@
 
 ## Use
 
-To run:
+To install:
 
 1. Install [Node](https://nodejs.org/) + [NPM](https://www.npmjs.com/)
 2. Run `npm install`
-3. Install [FireFox Nightly](https://nightly.mozilla.org/)
-	1. Sometimes use flag in HTML file: `<script src="..." type="application/javascript;version=1.8"></script>`
-4. Install [Chrome Canary](https://www.google.com/chrome/browser/canary.html)
-	1. Enable harmony through URL: "chrome://flags/#enable-javascript-harmony"
-5. Install [Edge](https://www.microsoft.com/windows/browser-for-doing)
 
 To compile:
 
-* Run `babel-watch.bat` (Windows)
 * Run `npm run build` or `npm run watch`
 
 To run:
-* Browser: Open HTML
+* Browser:
+	* Run `npm start`
+	* Open the browser at the http://localhost:5000
+	* Go to `html` folder (uncompiled sources) or `html-lib` folder (compiled sources) and select an example.
 * Node: Run `node <filename>` or sometimes `node --harmony <filename>`
 
 ## Conferences
