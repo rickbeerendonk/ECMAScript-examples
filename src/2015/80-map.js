@@ -14,7 +14,10 @@ function logIterator(iterator) {
   console.log(s);
 }
 
-let map = new Map([['A', 111], ['B', 222]]);
+let map = new Map([
+  ['A', 111],
+  ['B', 222]
+]);
 map.set('C', 333);
 
 logIterator(map.keys()); // A; B; C
