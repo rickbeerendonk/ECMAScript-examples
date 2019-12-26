@@ -7,6 +7,9 @@
     "url": "git+https://github.com/rickbeerendonk/ECMAScript-examples.git"
   },
   "author": "Rick Beerendonk",
+  "contributors": [
+    "Maria Isabel Valencia"
+  ],
   "license": "EUPL-1.2",
   "bugs": {
     "url": "https://github.com/rickbeerendonk/ECMAScript-examples/issues"
