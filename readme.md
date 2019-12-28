@@ -11,20 +11,20 @@ To install:
 
 To compile:
 
-* Run `npm run build` or `npm run watch`
+- Run `npm run build` or `npm run watch`
 
 To run:
-* Browser:
-	* Run `npm start`
-	* Open the browser at the http://localhost:5000
-	* Go to `html` folder (uncompiled sources) or `html-lib` folder (compiled sources) and select an example.
-* Node: Run `node <filename>` or sometimes `node --harmony <filename>`
+
+- Browser:
+  _ Run `npm start`
+  _ Open the browser at the http://localhost:5000 \* Go to `html` folder (uncompiled sources) or `html-lib` folder (compiled sources) and select an example.
+- Node: Run `node <filename>` or sometimes `node --harmony <filename>`
 
 ## Conferences
 
-* Demos used during the ["JavaScript 2016 for C# Developers"](http://www.slideshare.net/RickBeerendonk/javascript-2016-for-c-developers) presentation. Microsoft TechDays, October 4, 2016.
-* Demos used during different courses in Denmark, Norway, Sweden & The Netherlands from 2015 until this year.
-* Demos used during the ["JavaScript innovaties: ECMAScript 6 & 7"](http://www.slideshare.net/RickBeerendonk/javascript-innovaties-ecmascript-6-7) presentation. Microsoft TechDays, May 28, 2015. 
+- Demos used during the ["JavaScript 2016 for C# Developers"](http://www.slideshare.net/RickBeerendonk/javascript-2016-for-c-developers) presentation. Microsoft TechDays, October 4, 2016.
+- Demos used during different courses in Denmark, Norway, Sweden & The Netherlands from 2015 until this year.
+- Demos used during the ["JavaScript innovaties: ECMAScript 6 & 7"](http://www.slideshare.net/RickBeerendonk/javascript-innovaties-ecmascript-6-7) presentation. Microsoft TechDays, May 28, 2015.
 
 ## ECMAScript Proposals
 

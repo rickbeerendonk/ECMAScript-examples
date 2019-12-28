@@ -14,7 +14,7 @@ body > :first-child::after {
   border-style: solid;
   border-radius: 2rem;
 
-  padding-left: .7rem;
+  padding-left: 0.7rem;
   padding-right: 1rem;
 
   bottom: 0;

@@ -52,8 +52,8 @@
     "eslint": "eslint . --ext .js --cache",
     "eslint-fix": "eslint . --ext .js --cache --fix",
     "openserver": "node \"./util - http-server/server.js\" 8040",
-    "prettier": "prettier --list-different '**/*.{json,js,html}'",
-    "prettier-fix": "prettier --write '**/*.{json,js,html}'",
+    "prettier": "prettier --list-different '**/*.{css,json,js,html,md,mjs}'",
+    "prettier-fix": "prettier --write '**/*.{css,json,js,html,md,mjs}'",
     "start": "npm run build && serve .",
     "validate": "npm run eslint && npm run prettier"
   }

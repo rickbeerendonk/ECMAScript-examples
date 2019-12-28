@@ -1,10 +1,10 @@
 /*! Copyright © 2018 Rick Beerendonk !*/
 
-@import "oblicum-es-20XX.css";
+@import 'oblicum-es-20XX.css';
 
 body > :first-child::after {
-  content: "Stage 3";
-  
+  content: 'Stage 3';
+
   background-color: red;
   border-color: red;
 }

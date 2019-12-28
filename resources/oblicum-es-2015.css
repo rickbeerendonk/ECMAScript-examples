@@ -1,7 +1,7 @@
 /*! Copyright © 2019 Rick Beerendonk !*/
 
-@import "oblicum-es-20XX.css";
+@import 'oblicum-es-20XX.css';
 
 body > :first-child::after {
-  content: "EcmaScript 2015";
+  content: 'EcmaScript 2015';
 }
