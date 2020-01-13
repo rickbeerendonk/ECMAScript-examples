@@ -6,7 +6,6 @@
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
     ["@babel/plugin-proposal-private-methods"],
     "@babel/plugin-syntax-bigint",
-    "@babel/plugin-syntax-dynamic-import",
-    "transform-optional-catch-binding"
+    "@babel/plugin-syntax-dynamic-import"
   ]
 }
