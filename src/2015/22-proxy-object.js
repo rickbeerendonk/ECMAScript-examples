@@ -5,13 +5,15 @@
 
 // Babel: Impossible due to ES5 limitations
 
-let target = {};
+let target = {
+  techDays: 'TechDays-Original'
+};
 let handler = {
   get: function(receiver, name) {
-    return 'Proxy: ' + name;
+    return 'Proxy: ' + name + ' (real value: ' + receiver[name] + ')';
   }
 };
 
 let proxy = new Proxy(target, handler);
 
-console.log(proxy.TechDays); // Proxy: TechDays
+console.log(proxy.techDays); // Proxy: techDays (real value: TechDays-Original)
