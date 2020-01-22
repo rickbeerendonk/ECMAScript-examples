@@ -6,14 +6,22 @@
 // Babel: Impossible due to ES5 limitations
 
 let target = {
-  techDays: 'TechDays-Original'
+  techDays: 'TechDays'
 };
 let handler = {
-  get: function(receiver, name) {
-    return 'Proxy: ' + name + ' (real value: ' + receiver[name] + ')';
+  get(target, prop /*, receiver */) {
+    return target[prop] + ' (changed through Proxy)';
+  },
+  set(target, prop, value /*, receiver */) {
+    target[prop] = value + ' (changed through Proxy)';
+    return true;
   }
 };
 
 let proxy = new Proxy(target, handler);
 
-console.log(proxy.techDays); // Proxy: techDays (real value: TechDays-Original)
+console.log(proxy.techDays); // TechDays (changed through Proxy)
+
+proxy.techDays = 'test';
+
+console.log(target.techDays); // test (changed through Proxy)
