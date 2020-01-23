@@ -16,7 +16,7 @@ function exclaim(str) {
   return str + '!';
 }
 
-function capatalize(str) {
+function capitalize(str) {
   return str.length === 0 ? str : str[0].toUpperCase() + str.substring(1);
 }
 
@@ -26,7 +26,7 @@ const name = 'ecmascript';
 // const result = exclaim(reverse(capatalize(name)));
 
 // New:
-const result = name |> capatalize |> reverse |> exclaim;
+const result = name |> capitalize |> reverse |> exclaim;
 
 console.log(result);
 // tpircsamcE!
