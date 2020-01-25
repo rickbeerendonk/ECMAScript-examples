@@ -23,7 +23,7 @@ function capitalize(str) {
 const name = 'ecmascript';
 
 // Old (reverse order of application):
-// const result = exclaim(reverse(capatalize(name)));
+// const result = exclaim(reverse(capitalize(name)));
 
 // New:
 const result = name |> capitalize |> reverse |> exclaim;
