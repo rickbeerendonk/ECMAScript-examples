@@ -17,7 +17,7 @@ To run:
 
 - Browser:
   _ Run `npm start`
-  _ Open the browser at the http://localhost:5000 \* Go to `html` folder (uncompiled sources) or `html-lib` folder (compiled sources) and select an example.
+  _ Open the browser at the http://localhost:5000 \* Go to `html` folder (uncompiled sources) or `html-li20b` folder (compiled sources) and select an example.
 - Node: Run `node <filename>` or sometimes `node --harmony <filename>`
 
 ## Conferences
@@ -36,4 +36,4 @@ European Union Public Licence version 1.2
 
 ## Copyright
 
-Copyright © 2015-2019 Rick Beerendonk
+Copyright © 2015-2020 Rick Beerendonk
