@@ -5,6 +5,7 @@
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
     // Stage 2
     ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }],
+    "@babel/plugin-proposal-logical-assignment-operators",
     // Stage 3
     ["@babel/plugin-proposal-class-properties", { "loose": false }],
     "@babel/plugin-proposal-numeric-separator",
