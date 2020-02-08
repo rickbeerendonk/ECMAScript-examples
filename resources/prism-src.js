@@ -5,7 +5,7 @@
 
 /* eslint no-unused-vars:warn */
 
-function showSource() {
+function showSource(numberOfBottomLinesMargin = 2) {
   if (!document.location.href.startsWith('file')) {
     const source = document.getElementById('source').src;
 
@@ -17,6 +17,8 @@ function showSource() {
       })
       .then(code => {
         const preElem = document.createElement('pre');
+        preElem.style = `margin-bottom: ${numberOfBottomLinesMargin * 3 +
+          1}rem`;
         preElem.classList.add('language-javascript');
         const codeElem = document.createElement('code');
         codeElem.innerHTML = code;
