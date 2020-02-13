@@ -6,11 +6,11 @@ const language = 'en';
 let lib;
 switch (language) {
   case 'es': {
-    lib = './01-dynamic-import_es.js';
+    lib = './01-2-dynamic-import-named_es.js';
     break;
   }
   default: {
-    lib = './01-dynamic-import_en.js';
+    lib = './01-2-dynamic-import-named_en.js';
   }
 }
 
