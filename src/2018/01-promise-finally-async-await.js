@@ -9,11 +9,11 @@
 //import 'babel-polyfill';
 
 const p1 = () =>
-  new Promise(function(resolve, reject) {
+  new Promise(function (resolve, reject) {
     setTimeout(() => resolve('Resolved'), 2000);
   });
 const p2 = () =>
-  new Promise(function(resolve, reject) {
+  new Promise(function (resolve, reject) {
     setTimeout(() => reject('Rejected'), 1000);
   });
 

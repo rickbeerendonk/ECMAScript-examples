@@ -7,7 +7,7 @@
 //import '@babel/polyfill';
 
 const test = {
-  [Symbol.iterator]: function*() {
+  [Symbol.iterator]: function* () {
     let current = 1;
     while (true) {
       yield current++;

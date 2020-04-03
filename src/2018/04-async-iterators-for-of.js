@@ -9,12 +9,12 @@
 //import 'babel-polyfill';
 
 const test = {
-  [Symbol.asyncIterator]: function() {
+  [Symbol.asyncIterator]: function () {
     let current = 0;
     return {
       next() {
         current++;
-        return new Promise(function(resolve, reject) {
+        return new Promise(function (resolve, reject) {
           setTimeout(
             () => resolve({ done: false, value: current }),
             1000 * Math.random()
@@ -25,7 +25,7 @@ const test = {
   }
 };
 
-(async function() {
+(async function () {
   for await (let n of test) {
     console.log(n);
     if (n >= 10) {

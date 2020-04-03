@@ -10,16 +10,16 @@
 //require('babel-polyfill');
 
 const p1 = () =>
-  new Promise(function(resolve, reject) {
+  new Promise(function (resolve, reject) {
     //console.log('p1 started...');
-    setTimeout(function() {
+    setTimeout(function () {
       return resolve('Resolved');
     }, 2000);
   });
 const p2 = () =>
-  new Promise(function(resolve, reject) {
+  new Promise(function (resolve, reject) {
     //console.log('p2 started...');
-    setTimeout(function() {
+    setTimeout(function () {
       return reject('Rejected');
     }, 1000);
   });

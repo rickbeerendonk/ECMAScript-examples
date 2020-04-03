@@ -17,8 +17,9 @@ function showSource(numberOfBottomLinesMargin = 2) {
       })
       .then(code => {
         const preElem = document.createElement('pre');
-        preElem.style = `margin-bottom: ${numberOfBottomLinesMargin * 3 +
-          1}rem`;
+        preElem.style = `margin-bottom: ${
+          numberOfBottomLinesMargin * 3 + 1
+        }rem`;
         preElem.classList.add('language-javascript');
         const codeElem = document.createElement('code');
         codeElem.innerHTML = code;

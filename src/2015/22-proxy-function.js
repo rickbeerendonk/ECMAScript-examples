@@ -7,11 +7,11 @@
 
 // Babel: Impossible due to ES5 limitations
 
-let target = function(s) {
+let target = function (s) {
   return 'Target: ' + s;
 };
 let handler = {
-  apply: function(receiver, ...args) {
+  apply: function (receiver, ...args) {
     return 'Proxy: ' + args[1][0];
   }
 };

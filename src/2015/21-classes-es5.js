@@ -3,19 +3,19 @@
 
 'use strict';
 
-var Base = function(name) {
+var Base = function (name) {
   this.name = name;
   return this;
 };
 
 Base.prototype = {
   constructor: Base,
-  toString: function() {
+  toString: function () {
     return this.name;
   }
 };
 
-var Account = function(name) {
+var Account = function (name) {
   Base.call(this, name);
   this.balance = 0;
   return this;
@@ -23,15 +23,15 @@ var Account = function(name) {
 
 Account.prototype = new Base();
 
-Account.prototype.deposit = function(amount) {
+Account.prototype.deposit = function (amount) {
   this.balance += amount;
 };
 
-Account.prototype.withdraw = function(amount) {
+Account.prototype.withdraw = function (amount) {
   this.balance -= amount;
 };
 
-Account.prototype.toString = function() {
+Account.prototype.toString = function () {
   return this + ': ' + this.balance;
 };
 

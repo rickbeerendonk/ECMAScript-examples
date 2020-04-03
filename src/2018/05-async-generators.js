@@ -17,7 +17,7 @@ async function* asyncTest() {
   }
 }
 
-(async function() {
+(async function () {
   for await (let n of asyncTest()) {
     console.log(n);
     if (n >= 10) {
