@@ -2,7 +2,13 @@
 
 ![](https://img.shields.io/github/license/rickbeerendonk/ECMAScript-examples.svg)
 
-## Use
+## Version 5
+
+See folder "version 5".
+
+## Version 2015 and later
+
+### Use
 
 To install:
 
