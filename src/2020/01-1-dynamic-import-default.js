@@ -16,4 +16,4 @@ switch (language) {
 
 import(lib)
   .then(module => console.log(module.default()))
-  .catch(error => console.log(error));
+  .catch(error => console.error(error));
