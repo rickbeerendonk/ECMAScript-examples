@@ -10,4 +10,5 @@ function test(value) {
 
 // Case 2: No error because of the trailing comma in arguments
 console.log('test(1, )');
-test(1); // 1
+// prettier-ignore
+test(1, ); // 1
