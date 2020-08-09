@@ -8,5 +8,5 @@
 const unreadable = 1000000.000001;
 const readable = 1_000_000.000_001;
 
-console.log(unreadable === readable);
+console.log('unreadable === readable', unreadable === readable);
 // true
