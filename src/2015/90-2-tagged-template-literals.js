@@ -4,6 +4,8 @@
 function test(stringArr, ...expressions) {
   console.log(stringArr); // [ 'Boolean ', ' Number ', ' String ', '' ]
   console.log(...expressions); // false 123 text
+  return 'Number of expression = ' + expressions.length;
 }
 
-test`Boolean ${false} Number ${123} String ${'text'}`;
+console.log(test`Boolean ${false} Number ${123} String ${'text'}`);
+// Number of expression = 3
