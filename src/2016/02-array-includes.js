@@ -9,3 +9,8 @@ console.log(['a', 'b'].includes('c')); // false
 console.log([NaN].includes(NaN)); // true
 
 console.log([-0].includes(+0)); // true
+
+/// BONUS: Use case
+
+const color = 'green';
+console.log(['red', 'green', 'blue'].includes(color)); // true
