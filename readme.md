@@ -26,6 +26,14 @@ To run:
   _ Open the browser at the http://localhost:5000 \* Go to `html` folder (uncompiled sources) or `html-li20b` folder (compiled sources) and select an example.
 - Node: Run `node <filename>` or sometimes `node --harmony <filename>`
 
+### Compile
+
+Browserslist is used in the compile step above. The file `.browserslistrc` contains the configuration. To check which browsers are supported with the compiled code, run:
+
+```zsh
+npx browserslist
+```
+
 ## Conferences
 
 - Demos used during the ["JavaScript 2016 for C# Developers"](http://www.slideshare.net/RickBeerendonk/javascript-2016-for-c-developers) presentation. Microsoft TechDays, October 4, 2016.
