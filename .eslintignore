@@ -2,5 +2,3 @@
 **/lib/**
 **/node_modules/**
 **/src-babel-issues/**
-
-04-top-level-await.js
