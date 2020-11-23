@@ -2,6 +2,7 @@
 /*! Copyright © 2018 Rick Beerendonk          !*/
 
 // https://github.com/tc39/proposal-pipeline-operator/
+// Other proposals: https://github.com/tc39/proposal-pipeline-operator/wiki
 
 'use strict';
 
