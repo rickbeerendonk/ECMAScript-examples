@@ -3,7 +3,7 @@
 
 function test(stringArr, ...expressions) {
   console.log(stringArr); // [ 'Boolean ', ' Number ', ' String ', '' ]
-  console.log(...expressions); // false 123 text
+  console.log(JSON.stringify(expressions)); // [false,123,"text"]
   return 'Number of expression = ' + expressions.length;
 }
 
