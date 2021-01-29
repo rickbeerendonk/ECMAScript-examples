@@ -22,6 +22,7 @@
     }
   },
   "dependencies": {
+    "core-js": "3.6.5",
     "serve": "11.3.2"
   },
   "devDependencies": {
@@ -37,7 +38,6 @@
     "@babel/plugin-syntax-bigint": "7.8.3",
     "@babel/plugin-syntax-top-level-await": "7.10.4",
     "@babel/preset-env": "7.11.5",
-    "core-js": "3.6.5",
     "eslint": "7.9.0",
     "http-server": "0.12.3",
     "husky": "4.3.0",
