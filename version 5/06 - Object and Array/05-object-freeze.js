@@ -16,4 +16,4 @@ o.prop3 = 'THIRD';
 delete o.prop2;
 o.prop4 = 444;
 
-console.log(JSON.stringify(o)); // {"prop1":true,"prop3":"three"}
+console.log(JSON.stringify(o)); // {"prop1":true,"prop2":2,"prop3":"three"}
