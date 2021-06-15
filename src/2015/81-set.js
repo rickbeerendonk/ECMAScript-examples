@@ -16,6 +16,7 @@ function logIterator(iterator) {
 
 let s = new Set(['A', 'B']);
 s.add('C');
+s.add('C'); // Will not add the value again
 s.add('D');
 
 logIterator(s.keys()); // A; B; C; D
