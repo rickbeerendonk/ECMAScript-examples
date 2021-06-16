@@ -17,13 +17,13 @@ To install:
 
 To compile:
 
-- Run `npm run build` or `npm run watch`
+- Run `npm run build` or `npm run build-watch`
 
 To run:
 
 - Browser:
   _ Run `npm start`
-  _ Open the browser at the http://localhost:5000 \* Go to `html` folder (uncompiled sources) or `html-li20b` folder (compiled sources) and select an example.
+  _ Open the browser at the http://localhost:5000 \* Go to `src` folder (uncompiled sources) or `lib` folder (compiled sources) and select an example.
 - Node: Run `node <filename>` or sometimes `node --harmony <filename>`
 
 ### Compile
@@ -50,4 +50,4 @@ European Union Public Licence version 1.2
 
 ## Copyright
 
-Copyright © 2015-2020 Rick Beerendonk
+Copyright © 2015-2021 Rick Beerendonk

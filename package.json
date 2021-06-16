@@ -33,6 +33,7 @@
     "@babel/plugin-proposal-pipeline-operator": "7.12.13",
     "@babel/plugin-syntax-top-level-await": "7.12.13",
     "@babel/preset-env": "7.14.0",
+    "copyfiles": "2.4.1",
     "eslint": "7.25.0",
     "http-server": "0.12.3",
     "husky": "4.3.8",
@@ -40,9 +41,10 @@
     "rimraf": "3.0.2"
   },
   "scripts": {
-    "build": "npm run clean && babel src --out-dir lib",
-    "build-watch": "npm run clean && babel src -w --out-dir lib",
+    "build": "npm run clean && npm run copy-html-files && babel src --out-dir lib",
+    "build-watch": "npm run clean && npm run copy-html-files && babel src -w --out-dir lib",
     "clean": "rimraf lib",
+    "copy-html-files": "copyfiles -u 1 src/**/*.html lib",
     "eslint": "eslint . --ext .js --cache",
     "eslint-fix": "eslint . --ext .js --cache --fix",
     "openserver": "node \"./util - http-server/server.js\" 8040",
