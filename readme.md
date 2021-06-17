@@ -23,7 +23,7 @@ To run:
 
 - Browser:
   _ Run `npm start`
-  _ Open the browser at the http://localhost:5000 \* Go to `src` folder (uncompiled sources) or `lib` folder (compiled sources) and select an example.
+  _ Open the browser at the http://localhost:8080 \* Go to `src` folder (uncompiled sources) or `lib` folder (compiled sources) and select an example.
 - Node: Run `node <filename>` or sometimes `node --harmony <filename>`
 
 ### Compile
