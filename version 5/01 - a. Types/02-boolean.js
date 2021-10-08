@@ -7,7 +7,7 @@ console.log('typeof(a):', typeof a); // boolean
 
 var b = false;
 console.log('b:', b); // false
-console.log('typeof(b): ', typeof b); // boolean
+console.log('typeof(b):', typeof b); // boolean
 
 var c = 1 < 2;
 console.log('c:', c); // true
