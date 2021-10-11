@@ -26,7 +26,7 @@ p2()
   .catch(err => console.log('Fail p2: ' + err));
 
 // Alternative syntax:
-//p1.then(x => console.log('Success p1 (alternative): ' + x), err => console.log('Fail p1 (alternative): ' + err));
-//p2.then(x => console.log('Success p2 (alternative): ' + x), err => console.log('Fail p2 (alternative): ' + err));
+//p1().then(x => console.log('Success p1 (alternative): ' + x), err => console.log('Fail p1 (alternative): ' + err));
+//p2().then(x => console.log('Success p2 (alternative): ' + x), err => console.log('Fail p2 (alternative): ' + err));
 
 console.log('End of file...');
