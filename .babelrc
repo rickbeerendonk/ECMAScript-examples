@@ -3,7 +3,7 @@
   "plugins": [
     // Stage 2
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
-    // Stage 2
+    // Stage 3
     ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }],
     // Stage 4
     "@babel/plugin-syntax-top-level-await"
