@@ -5,7 +5,7 @@
 
 // Babel: Impossible due to ES5 limitations
 
-let target = {
+let obj = {
   techDays: 'TechDays'
 };
 let handler = {
@@ -18,10 +18,10 @@ let handler = {
   }
 };
 
-let proxy = new Proxy(target, handler);
+let objProxy = new Proxy(obj, handler);
 
-console.log(proxy.techDays); // TechDays (changed through Proxy)
+console.log(objProxy.techDays); // TechDays (changed through Proxy)
 
-proxy.techDays = 'test';
+objProxy.techDays = 'test';
 
-console.log(target.techDays); // test (changed through Proxy)
+console.log(obj.techDays); // test (changed through Proxy)
