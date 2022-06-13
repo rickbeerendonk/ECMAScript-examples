@@ -7,4 +7,4 @@ console.log('s:', s); // 7
 console.log('String: s = "b":', (s = 'b')); // b
 
 s = 'a';
-console.log('Numbers: s += "c":', (s += 'c')); // ac
+console.log('String: s += "c":', (s += 'c')); // ac
