@@ -2,7 +2,7 @@
 /*! Copyright © 2018 Rick Beerendonk          !*/
 
 var s = 'a';
-console.log('s:', s); // 7
+console.log('s:', s); // a
 
 console.log('String: s = "b":', (s = 'b')); // b
 
