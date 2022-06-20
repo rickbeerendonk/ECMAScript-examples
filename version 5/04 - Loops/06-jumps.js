@@ -9,4 +9,12 @@ for (var i = 1; i < 20; i++) {
   console.log('Iteration: ' + i);
 }
 
-console.log('Done!');
+console.log('Done');
+
+// Iteration: 1
+// Iteration: 2
+// Iteration: 4
+// Iteration: 5
+// Iteration: 7
+// Iteration: 8
+// Done
