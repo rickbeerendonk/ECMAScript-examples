@@ -16,9 +16,6 @@ interface Iterable {
 }
 */
 
-// Babel:
-//import 'babel-polyfill';
-
 let test = {
   [Symbol.iterator]() {
     let current = 0;

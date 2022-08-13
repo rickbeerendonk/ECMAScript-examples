@@ -3,9 +3,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 const n = 5.12;
 
 console.log(Number.isFinite(n)); // true

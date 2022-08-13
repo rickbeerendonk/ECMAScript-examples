@@ -3,9 +3,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 const s1 = Symbol('rick/one');
 const s2 = Symbol('rick/one');
 const s3 = Symbol.for('rick/one');

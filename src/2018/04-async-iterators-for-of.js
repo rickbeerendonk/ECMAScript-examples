@@ -5,9 +5,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 const test = {
   [Symbol.asyncIterator]: function () {
     let current = 0;

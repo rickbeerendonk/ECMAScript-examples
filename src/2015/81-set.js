@@ -3,9 +3,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 function logIterator(iterator) {
   let s = '';
   for (let v of iterator) {

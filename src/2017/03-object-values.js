@@ -3,9 +3,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 let obj = {
   name: 'EcmaScript',
   year: 2017,

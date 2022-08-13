@@ -3,9 +3,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 let o1 = { a: 1 };
 let o2 = { b: 2, c: 3 };
 let o3 = { c: 4, d: 5 };

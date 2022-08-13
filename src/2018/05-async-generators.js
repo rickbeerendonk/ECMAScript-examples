@@ -3,9 +3,6 @@
 
 'use strict';
 
-// Babel:
-//import 'babel-polyfill';
-
 async function* asyncTest() {
   try {
     let current = 1;
