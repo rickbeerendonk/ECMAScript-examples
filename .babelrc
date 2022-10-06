@@ -2,6 +2,7 @@
   "presets": [["@babel/preset-env", { "shippedProposals": true }]],
   "plugins": [
     // Stage 1
+    "@babel/plugin-proposal-do-expressions",
     "@babel/plugin-proposal-partial-application",
     // Stage 2
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
