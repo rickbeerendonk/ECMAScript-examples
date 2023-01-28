@@ -7,6 +7,7 @@ async function* asyncTest() {
   try {
     let current = 1;
     while (true) {
+      await new Promise(resolve => setTimeout(resolve, 1000 * Math.random()));
       yield current++;
     }
   } finally {
