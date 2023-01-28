@@ -6,7 +6,7 @@
 'use strict';
 
 const test = {
-  [Symbol.asyncIterator]: function () {
+  [Symbol.asyncIterator]() {
     let current = 0;
     return {
       next() {
