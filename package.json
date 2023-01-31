@@ -44,8 +44,8 @@
     "rimraf": "3.0.2"
   },
   "scripts": {
-    "build": "npm run clean && npm run copy-html-files && babel src --out-dir lib",
-    "build-watch": "npm run clean && npm run copy-html-files && babel src -w --out-dir lib",
+    "build": "npm run clean && npm run copy-html-files && babel src --out-dir lib --source-maps",
+    "build-watch": "npm run clean && npm run copy-html-files && babel src -w --out-dir lib --source-maps",
     "clean": "rimraf lib",
     "copy-html-files": "copyfiles -u 1 src/**/*.html lib",
     "eslint": "eslint . --ext .js --cache",
