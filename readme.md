@@ -51,4 +51,4 @@ European Union Public Licence version 1.2
 
 ## Copyright
 
-Copyright © 2015-2021 Rick Beerendonk
+Copyright © 2015-2023 Rick Beerendonk
