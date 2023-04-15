@@ -8,8 +8,6 @@
     // Stage 2
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
     // Stage 3
-    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }],
-    // Stage 4
-    "@babel/plugin-proposal-class-properties"
+    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }]
   ]
 }
