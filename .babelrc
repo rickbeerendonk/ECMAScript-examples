@@ -1,5 +1,5 @@
 {
-  "presets": [["@babel/preset-env", { "shippedProposals": true }]],
+  "presets": ["@babel/preset-env"],
   "plugins": [
     // Stage 1
     "@babel/plugin-proposal-do-expressions",
@@ -8,6 +8,8 @@
     // Stage 2
     ["@babel/plugin-proposal-pipeline-operator", { "proposal": "minimal" }],
     // Stage 3
-    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }]
+    ["@babel/plugin-proposal-decorators", { "decoratorsBeforeExport": true }],
+    // Stage 4
+    ["@babel/plugin-transform-class-properties"]
   ]
 }
