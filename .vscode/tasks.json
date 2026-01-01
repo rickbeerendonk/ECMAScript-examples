@@ -6,11 +6,23 @@
     {
       "label": "Open Server",
       "type": "shell",
-      "command": "npm run openserver -- \"${file}\"",
+      "command": "if [[ \"${file}\" == *.js ]]; then node \"${file}\"; else npm run openserver -- \"${file}\"; fi",
       "problemMatcher": [],
       "group": {
         "kind": "build",
         "isDefault": true
+      },
+      "windows": {
+        "command": "powershell",
+        "args": [
+          "-Command",
+          "if ($env:file -match '\\.js$') { node $env:file } else { npm run openserver -- $env:file }"
+        ]
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false
       }
     }
   ]
