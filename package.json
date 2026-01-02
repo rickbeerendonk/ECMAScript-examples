@@ -22,26 +22,26 @@
     }
   },
   "dependencies": {
-    "core-js": "3.43.0",
-    "serve": "14.2.4"
+    "core-js": "^3",
+    "serve": "^14"
   },
   "devDependencies": {
-    "@babel/cli": "7.27.2",
-    "@babel/core": "7.27.4",
-    "@babel/eslint-parser": "7.27.5",
-    "@babel/plugin-proposal-decorators": "7.27.1",
-    "@babel/plugin-proposal-do-expressions": "7.27.1",
-    "@babel/plugin-proposal-partial-application": "7.27.1",
-    "@babel/plugin-proposal-pipeline-operator": "7.27.1",
-    "@babel/plugin-proposal-record-and-tuple": "7.27.1",
-    "@babel/preset-env": "7.27.2",
-    "@bloomberg/record-tuple-polyfill": "0.0.4",
-    "copyfiles": "2.4.1",
-    "eslint": "8.42.0",
-    "http-server": "14.1.1",
-    "husky": "4.3.8",
-    "prettier": "3.5.3",
-    "rimraf": "6.0.1"
+    "@babel/cli": "^7",
+    "@babel/core": "^7",
+    "@babel/eslint-parser": "^7",
+    "@babel/plugin-proposal-decorators": "^7",
+    "@babel/plugin-proposal-do-expressions": "^7",
+    "@babel/plugin-proposal-partial-application": "^7",
+    "@babel/plugin-proposal-pipeline-operator": "^7",
+    "@babel/plugin-proposal-record-and-tuple": "^7",
+    "@babel/preset-env": "^7",
+    "@bloomberg/record-tuple-polyfill": "^0.0.4",
+    "copyfiles": "^2",
+    "eslint": "^8",
+    "http-server": "^14",
+    "husky": "^4",
+    "prettier": "^3",
+    "rimraf": "^6"
   },
   "scripts": {
     "build": "npm run clean && npm run copy-html-files && babel src --out-dir lib --source-maps",
