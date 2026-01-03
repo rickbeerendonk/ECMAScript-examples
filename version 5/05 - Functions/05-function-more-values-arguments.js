@@ -4,7 +4,7 @@
 function test() {
   // var arguments = [true, 2, "three"]; // But not a real array!
 
-  for (let i = 0; i < arguments.length; i++) {
+  for (var i = 0; i < arguments.length; i++) {
     console.log(arguments[i]);
   }
   // true
