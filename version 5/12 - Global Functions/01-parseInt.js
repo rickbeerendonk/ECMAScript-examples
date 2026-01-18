@@ -15,3 +15,6 @@ console.log(parseInt("  45  ")); // 45
 
 // 4. Returns NaN if not a number
 console.log(parseInt("hello")); // NaN
+
+// 5. First non-numeric character stops parsing
+console.log(parseInt("678abc")); // 678
