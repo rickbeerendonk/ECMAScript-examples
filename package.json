@@ -35,7 +35,6 @@
     "@babel/plugin-proposal-pipeline-operator": "^7",
     "@babel/plugin-proposal-record-and-tuple": "^7",
     "@babel/preset-env": "^7",
-    "@bloomberg/record-tuple-polyfill": "^0.0.4",
     "copyfiles": "^2",
     "eslint": "^8",
     "http-server": "^14",
