@@ -3,8 +3,8 @@
 
 var str = 'Hello World';
 
-console.log(str.indexOf('o'));     // 4
+console.log(str.indexOf('o')); // 4
 console.log(str.indexOf('World')); // 6
-console.log(str.indexOf('xyz'));   // -1
+console.log(str.indexOf('xyz')); // -1
 
-console.log(str.indexOf('o', 5));  // 7 (starts searching from index 5)
+console.log(str.indexOf('o', 5)); // 7 (starts searching from index 5)

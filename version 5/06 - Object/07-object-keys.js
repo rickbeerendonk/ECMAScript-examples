@@ -20,6 +20,6 @@ console.log(JSON.stringify(emptyKeys)); // []
 
 // Iterate over object properties
 var person = { firstName: 'Jane', lastName: 'Doe', age: 25 };
-Object.keys(person).forEach(function(key) {
+Object.keys(person).forEach(function (key) {
   console.log(key + ': ' + person[key]);
 });

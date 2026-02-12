@@ -15,9 +15,9 @@ console.log('a2 after replace:', JSON.stringify(a2)); // ["a","x","y","d","e"]
 
 // Insert/Add at different positions (delete count = 0)
 var a3 = ['a', 'b', 'c', 'd', 'e'];
-a3.splice(2, 0, 'x', 'y');  // Insert at index 2
+a3.splice(2, 0, 'x', 'y'); // Insert at index 2
 console.log('insert in middle:', JSON.stringify(a3)); // ["a","b","x","y","c","d","e"]
 
 var a4 = ['a', 'b', 'c'];
-a4.splice(3, 0, 'd', 'e');  // Insert at end (index = length)
+a4.splice(3, 0, 'd', 'e'); // Insert at end (index = length)
 console.log('insert at end:', JSON.stringify(a4)); // ["a","b","c","d","e"]

@@ -8,7 +8,7 @@ console.log(~5); // -6
 console.log(~0); // -1
 
 // ~(-1) = 0
-console.log(~(-1)); // 0
+console.log(~-1); // 0
 
 // Check if value not found in indexOf (indexOf returns -1 if not found)
 var arr = [1, 2, 3, 4, 5];

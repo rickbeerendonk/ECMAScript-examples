@@ -3,7 +3,6 @@
 
 var a = ['apple', 'banana', 'cherry', 'banana'];
 
-
 var index1a = a.indexOf('apple');
 console.log(index1a); // 0
 

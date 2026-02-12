@@ -1,7 +1,7 @@
 /*! European Union Public License version 1.2 !*/
 /*! Copyright © 2026 Rick Beerendonk          !*/
 
-var obj = { name: "John" };
+var obj = { name: 'John' };
 console.log(obj.toString()); // "[object Object]"
 
 // Arrays
@@ -17,7 +17,7 @@ var num = 123;
 console.log(num.toString()); // "123"
 
 // Strings
-var str = "hello";
+var str = 'hello';
 console.log(str.toString()); // "hello"
 
 // Booleans
@@ -26,9 +26,9 @@ console.log(false.toString()); // "false"
 
 // Custom toString
 var custom = {
-	name: "Custom",
-	toString: function() {
-		return "Custom Object: " + this.name;
-	}
+  name: 'Custom',
+  toString: function () {
+    return 'Custom Object: ' + this.name;
+  }
 };
 console.log(custom.toString()); // "Custom Object: Custom"

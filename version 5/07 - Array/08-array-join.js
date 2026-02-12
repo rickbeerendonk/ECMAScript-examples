@@ -3,7 +3,7 @@
 
 var arr = ['apple', 'banana', 'cherry'];
 
-console.log( arr.join()    ); // apple,banana,cherry
-console.log( arr.join('-') ); // apple-banana-cherry
-console.log( arr.join(' ') ); // apple banana cherry
-console.log( arr.join('')  ); // applebananacherry
+console.log(arr.join()); // apple,banana,cherry
+console.log(arr.join('-')); // apple-banana-cherry
+console.log(arr.join(' ')); // apple banana cherry
+console.log(arr.join('')); // applebananacherry

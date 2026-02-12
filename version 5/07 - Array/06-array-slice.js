@@ -20,5 +20,5 @@ console.log(JSON.stringify(sliced5)); // ["a","b","c","d","e"]
 
 // Proof: modifying the copy doesn't affect original
 sliced5[0] = 'x';
-console.log(JSON.stringify(a));       // ["a","b","c","d","e"] - unchanged
+console.log(JSON.stringify(a)); // ["a","b","c","d","e"] - unchanged
 console.log(JSON.stringify(sliced5)); // ["x","b","c","d","e"] - modified

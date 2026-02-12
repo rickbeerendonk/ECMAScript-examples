@@ -11,12 +11,12 @@ console.log(typeof obj2.toString); // "function" (inherited)
 
 // 3. Create object with custom prototype
 var proto = {
-	greet: function() {
-		return "Hello, " + this.name;
-	}
+  greet: function () {
+    return 'Hello, ' + this.name;
+  }
 };
 var obj3 = Object.create(proto);
-obj3.name = "Alexandra";
+obj3.name = 'Alexandra';
 console.log(obj3.greet()); // "Hello, Alexandra"
 
 // Check prototype chain
@@ -24,11 +24,11 @@ console.log(Object.getPrototypeOf(obj3) === proto); // true
 
 // 4. Create with properties descriptor (2nd parameter)
 var obj4 = Object.create(Object.prototype, {
-	name: {
-		value: "Alexandra",
-		writable: true,
-		enumerable: true,
-		configurable: true
-	}
+  name: {
+    value: 'Alexandra',
+    writable: true,
+    enumerable: true,
+    configurable: true
+  }
 });
 console.log(obj4.name); // "Alexandra"
