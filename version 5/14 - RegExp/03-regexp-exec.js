@@ -3,7 +3,7 @@
 
 var pattern = /hello/;
 var result = pattern.exec('hello world');
-console.log(result); // ["hello", index: 0, input: "hello world"]
+console.log(result); // ["hello", index: 0, input: "hello world", groups: undefined]
 console.log(result[0]); // hello
 console.log(result.index); // 0
 
@@ -19,5 +19,5 @@ console.log(groupResult[2]); // World
 
 // Global flag - different behavior
 var globalPattern = /\d+/g;
-console.log(globalPattern.exec('123 and 456')); // ["123", ...]
-console.log(globalPattern.exec('123 and 456')); // ["456", ...] (continues from lastIndex)
+console.log(globalPattern.exec('123 and 456')); // [ '123', index: 0, input: '123 and 456', groups: undefined ]
+console.log(globalPattern.exec('123 and 456')); // [ '456', index: 8, input: '123 and 456', groups: undefined ] (continues from lastIndex)
